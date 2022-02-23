@@ -1,0 +1,82 @@
+body {
+  background-color: #f2f2f2;
+  color: #333333;
+  font-family: system-ui;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+  max-width: 700px;
+}
+button {
+  margin: 20px;
+  outline: none;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  border: 4px solid #000;
+  font-weight: 700;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+p {
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+}
+h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #d84a1b;
+  background: -webkit-linear-gradient(0deg, #cb2b83, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sub {
+  font-weight: 200;
+  font-size: 45px;
+  margin-top: -40;
+  color: black;
+}
+h2 {
+  font-weight: 500;
+  font-size: 33px;
+  color: black;
+}
+b {
+  color: black;
+}
+.surround {
+  background: #65b7f3;
+  padding: 15px;
+  word-break: break-all;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: #aaaaaa;
+  }
+
+  #transaction {
+    background-color: #191919;
+    box-shadow: none;
+  }
+  p {
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+  .sub,
+  .sub2 {
+    color: white;
+  }
+  b {
+    color: white;
+  }
+}
